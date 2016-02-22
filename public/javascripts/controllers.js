@@ -161,7 +161,7 @@ guitarshopControllers.controller('GuitarAddController', ['$scope', 'GuitarAdd', 
       if (!$scope.guitarname) {
         $scope.guitarname = false;
 
-      } else if (!$scope.guitarid) {
+      } else if (!$scopze.guitarid) {
         $scope.guitarid = false;
       } else {
         $scope.guitar.$save(function(data) {
